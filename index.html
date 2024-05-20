@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JohanDav ! Portafolio Web</title>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e336c2441f.js" crossorigin="anonymous"></script>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    working...
+    <!-- Menu de navegacion -->
+    <header class="flex h-fit w-full bg-slate-950">
+        <nav class="flex justify-between h-20 w-screen">
+            <h1 class="text-5xl"><a class="honk" href="#">< JOHAN/></a></h1>
+            <ul class="flex">
+                <li class=""><a href="#about-me">ABOUT ME</a></li>
+                <li class=""><a href="#projects">PROJECTS</a></li>
+                <li class=""><a href="#skills">SKILLS</a></li>
+                <li class=""><a href="#hobbies">HOBBIES</a></li>
+                <li class=""><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero section  -->
+    <main >
+        <section id="about-me" class="w-full h-screen bg-[url('./img/mario-bg.gif')] bg-contain">
+            <section class="">
+                <h1 class="honk text-center text-5xl">ABOUT ME</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis perspiciatis ipsam, facilis velit consequuntur voluptas aliquid, quae enim provident magni libero tempora dicta laboriosam fuga expedita consectetur vitae! Maiores, delectus.</p>
+            </section>
+        </section>
+        <section id="" class="w-full h-fit">
+            <h1 class="honk text-center text-5xl">PROJECTS</h1>
+            <section class="w-full grid grid-cols-3">
+                <figure class="w-80"><img class="w-full" src="./img/project01.jpg" alt=""></figure>
+                <figure class="w-80"><img class="w-full" src="./img/project02.jpg" alt=""></figure>
+                <figure class="w-80"><img class="w-full" src="./img/project03.jpg" alt=""></figure>
+                <figure class="w-80"><img class="w-full" src="./img/project04.jpg" alt=""></figure>
+                <figure class="w-80"><img class="w-full" src="./img/project05.jpg" alt=""></figure>
+                <figure class="w-80"><img class="w-full" src="./img/project06.jpg" alt=""></figure>
+            </section>
+        </section>
+        <section id="skills" class="w-full h-screen bg-[url('./img/computer-bg.gif')] bg-cover bg-center">
+            <h1 class="honk text-center text-5xl">SKILLS</h1>
+            <section class="">
+                <figure class="">
+                    <img class="" src="." alt="">
+                </figure>
+                <figure class="">
+                    <img class="" src="" alt="">
+                </figure>
+                <figure class="">
+                    <img class="" src="" alt="">
+                </figure>
+            </section>
+        </section>
+        <section id="" class="w-full h-screen">
+            <h1 class="honk text-center text-5xl">HOBBIES</h1>
+            <section class="">
+                <figure class="">
+                    <img src="" alt="">
+                </figure>
+                <figure class="">
+                    <img src="" alt="">
+                </figure>
+                <figure class="">
+                    <img src="" alt="">
+                </figure>
+                <figure class="">
+                    <img src="" alt="">
+                </figure>
+            </section>
+        </section>
+        <section id="" class="w-full h-screen bg-[url('./img/purple-orange-city-bg.gif')] bg-contain">
+            <h1 class="honk text-center text-5xl">CONTACT</h1>
+            <form class="" action="">
+                <input type="text" placeholder="TU NOMBRE">
+                <input type="email" name="" id="" placeholder="TU EMAIL">
+                <input type="text" placeholder="ASUNTO">
+                <input class="mensaje" type="text" placeholder="MENSAJE">
+            </form>
+        </section>
+    </main>
+
+    <footer class="w-full flex flex-col h-40">
+        <p>Johan@2024</p>
+        <ul class="flex">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
